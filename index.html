@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Lenis and GSAP Smooth Scroll Image Gallery</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="nav-sidebar position-fixed">
+  <nav class="Sedebar-menu">
+    <p><a href="#" class="text-decoration-none text-black">Portfolio</a></p>
+    <p><a href="#" class="text-decoration-none text-black">Services</a></p>
+    <p><a href="#" class="text-decoration-none text-black">Contact Us</a></p>
+  </nav>
+</header>
+
+<section class="position-relative ">
+  <div class="mein-section">
+    <div class="main-logo">
+      <img src="./Logo.png" alt="">
+    </div>
+    <div class="play-logo position-absolute">
+      <div class="b-showreel-preview-icon">
+        <svg width="34" height="37" viewBox="0 0 24 27">
+          <path d="M1.25 0.94263L23 13.5L1.25 26.0574L1.25 0.94263Z" stroke="white" fill="none"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="video-bg">
+      <video class="background" playsinline="" autoplay="" muted="" loop="" preload="auto">
+        <source src="./Beauvoir-Accueil-Teaser-Video (1).mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="b-showreel-marquee">
+    <div class="b-showreel-marquee-body">
+      <h1 class="b-showreel-marquee-text"> Integrated Creative Agency</h1>
+      <h1 class="b-showreel-marquee-text"> Integrated Creative Agency</h1>
+    </div>
+  </div>
+</section>
+
+
+<!-- Section with slider -->
+
+<section class="Slider-wrapper position-relative d-flex">
+
+  <section class="Common-sections ">
+    <section class="left-static  ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="top-statics">
+              <p class="m-0">THE STRENGTH OF A </p>
+              <p class="m-0"> CREATIVE AGENCY, THE</p>
+              <p class="m-0"> NIMBLENESS OF A</p>
+              <p class="m-0"> PRODUCTION STUDIO.</p>
+            </div>
+            <button class="btn-see-service  bg-transparent"> SEE OUR SERVICES </a>
+          </div>
+          <div class="col-md-12">
+            <div class="bottom-statics">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="left-down-static  ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="top-statics">
+              <p class="m-0">THE STRENGTH OF A </p>
+              <p class="m-0"> CREATIVE AGENCY, THE</p>
+              <p class="m-0"> NIMBLENESS OF A</p>
+              <p class="m-0"> PRODUCTION STUDIO.</p>
+            </div>
+            <button class="btn-see-service  bg-transparent"> SEE OUR SERVICES </a>
+          </div>
+          <div class="col-md-12">
+            <div class="bottom-statics">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  
+  <section class=" mein-height over-flow-hidden">
+    <div class="horizontal-slider slide-left sticky-top">
+      <div class="slider-swiper-1 position-relative">
+        <video class="background w-100" playsinline="" autoplay="" muted="" loop="" preload="auto">
+          <source src="/Beauvoir_GIFSiteWeb_V02.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="w-100 text-dive">
+        <h1 class="text-nowrap py-5 text-center">Let's Explore About Me!🔥</h1>
+      
+      </div>
+    </div>
+  </section> 
+
+</section>
+
+
+
+<div class="wrapper-container">
+  <div class="description panel blue">
+    <div class="slider-swiper-1 position-relative">
+      <video class="background w-100" playsinline="" autoplay="" muted="" loop="" preload="auto">
+        <source src="/Beauvoir_GIFSiteWeb_V02.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div>
+      SCROLL DOWN
+      <div class="scroll-down"><div class="arrow"></div></div>
+    </div>
+  </div>
+
+  <section class="panel red">
+    ONE
+  </section>
+  <section class="panel orange">
+    TWO
+  </section>
+  <section class="panel purple">
+    THREE
+  </section>
+</div>
+<!-- Section end -->
+  <!-- <section class="section-class">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </section>
+
+  <section  class="section-class img-sec">
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+  </section>
+
+  <section  class="section-class"></section> -->
+
+
+
+  
+
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js'></script><script  src="./script.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+</body>
+</html>
